@@ -1,4 +1,5 @@
 # 🏦 Banking Big Data Analytics — Loan Default Prediction
+![Project Overview](images/enhancing-loan-approvals-through-ai-powered-automation.webp)
 
 ### Financial Risk Analysis & Machine Learning
 
