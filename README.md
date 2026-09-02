@@ -30,7 +30,7 @@ The project combines **data preprocessing, exploratory analysis, correlation ana
 
 The main objective of this project is:
 
-> **To investigate and compare machine learning approaches for predicting loan default using historical financial data.**
+> **To investigate and compare machine learning approaches for predicting loan default using financial data.**
 
 The project evaluates several models and examines their ability to generalise to unseen data.
 
@@ -262,7 +262,6 @@ The regularised linear models substantially improved the generalisation behaviou
 
 The neural-network approach achieved approximately **96% test accuracy** in the reported experiments.
 
-> **Note:** The project evaluates models using different metrics because both regression-based and classification-based approaches were investigated. For a future version, the loan-default problem could be formulated consistently as a binary classification task and evaluated using **Accuracy, Precision, Recall, F1-score, ROC-AUC, and a Confusion Matrix**.
 
 ---
 # 🔬 Feature Importance & Financial Insights
@@ -297,11 +296,6 @@ The analysis also examined variables with weaker correlations, including:
 - `id`
 - `member_id`
 
-### ⚠️ Identifier Variables
-
-The report highlights that identifier variables such as `id` and `member_id` should **not** be treated as meaningful predictive features.
-
-These variables primarily identify individual records rather than representing meaningful financial or borrower characteristics. Therefore, they were removed during preprocessing to reduce the risk of introducing irrelevant information into the models.
 
 # 📈 Key Findings
 
@@ -441,23 +435,8 @@ The analysis compares training and testing performance to investigate **generali
 
 ---
 
-# ⚠️ Important Interpretation
-
-This project is an **academic machine-learning study** and should not be used directly to make real-world lending decisions.
-
-Loan-default prediction involves sensitive financial decisions, and a production system would require additional validation, fairness analysis, calibration, explainability, regulatory review, and appropriate risk-management procedures.
-
-The results presented here should therefore be interpreted within the context of the dataset, preprocessing decisions, modelling choices, and experimental methodology.
-
----
 
 # 🎓 Academic Context
-
-**Module:** Big Data for Computational Finance
-
-**Academic Year:** 2023/24
-
-**Project:** Banking / Financial Risk Analytics
 
 The project investigates the application of machine learning to financial risk management, with a particular focus on understanding and predicting loan-default behaviour.
 
